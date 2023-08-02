@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #402313;
+    color: white;
+    font-family: 'Italiana';
+}
+
+a{
+    text-decoration: none;
+}
+
+a:any-link{
+	color: white;
+}
+a:-webkit-any-link{
+	color: white;
+}
+
+a:-moz-any-link{
+	color: white;
+}
+
+a:hover{
+    /*-webkit-text-stroke: 2px #white;*/
+    color: #c1a37f; 
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: #4023137b;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
+.menu{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li{
+    padding-top: 12px;
+    float: left;
+    margin: 10px;
+}
+
+.logo{
+    padding: 0px;
+    margin: 0px; 
+}
+
+.logo_texto{
+    font-family: 'Italianno', cursive;
+    padding: 0px;
+    margin: 0px; 
+    margin-right: 700px; 
+    border: none;
+    font-size: 30px;
+    line-height:60px; 
+}
+
+#inicio{
+    text-align: center;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    top: 0px;
+    left: 0px;
+
+    background-image: url(../img/inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute; 
+    width: 1480px; 
+    height: 450px; 
+}
+
+#texto1{
+    font-family: 'Italianno', cursive;
+    font-size: 90px;
+    font-weight: 200;
+    line-height: 36px;
+    margin-top: 160px;
+}
+
+#texto2{
+    font-size: 25px;
+    font-weight: 200;
+    line-height:36px;
+    margin-top: 40px;
+}
+
+.boton_carta{
+    border-radius: 12px;
+    background-color: #c1a37f; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#restaurante{
+    margin-top: 470px;
+}
+
+.titulos{
+    color: #c1a37fe4;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0px 30px 0px;
+}
+
+.gridexp{
+    padding: 0px 50px 30px 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-gap:10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.map-responsive {
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 50%;  /* asignar el 50% del espacio para el mapa */
+    margin-left: 250px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 300px;
+    width: 470px;  /* Hacer que el iframe ocupe todo el espacio disponible dentro de .map-responsive */
+    position: absolute;
+}
+
+#como_llegar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Cambiar a nowrap para evitar el salto de línea */
+    align-items: stretch; /* Estirar los hijos para que ocupen toda la altura */
+    justify-content: center;
+    gap: 5px;
+}
+
+.info {
+    width: 70%;  /* asignar el 50% del espacio para el horario */
+    font-family:'Courier New', Courier, monospace;
+}
+
+.linea{
+    border-top: 1px solid white;
+    width: 50%; 
+    height: 2px;
+    padding: 0;
+  }
+
+#direccion{
+    padding: 30px 0px 20px 0px;
+}
